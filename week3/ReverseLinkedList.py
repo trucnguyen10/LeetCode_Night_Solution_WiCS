@@ -1,6 +1,6 @@
-//Truc's solution: 
+#Truc's solution: 
 
-          // Recrusion: 
+          #Recrusion: 
           class Solution(object):
               def reverseList(self, head):
                   if not head or not head.next: 
@@ -12,9 +12,9 @@
 
                   return result
 
-              // Runtime: O(n), space: O(n)
+              #Runtime: O(n), space: O(n)
 
-          // Iteration:
+          #Iteration:
           class Solution(object):
               def reverseList(self, head):
                   if not head: 
@@ -27,7 +27,7 @@
                       prev = cur
                       cur = nex
                   return prev
-               // Runtime: O(n), space: O(1)
+               #Runtime: O(n), space: O(1)
 
    
   
